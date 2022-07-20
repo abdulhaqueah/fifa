@@ -1,0 +1,338 @@
+/*----------header-section-------------*/
+body{
+    margin: 0, auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header-section{
+    background-color: #161616;
+    width: 100%;
+    height: 498px;
+}
+
+.top-banner{
+    display: flex;
+    justify-content: center;
+}
+.top-banner .header-content{
+    width: 50%;
+    color: aliceblue;
+    align-items: center;
+}
+.font-header{
+    padding: 50px;
+    margin-left: 20px;
+}
+.font-header h1{
+    font-size:60px;
+}
+.button-watch button{
+
+        background-color: #334094;
+        padding: 14px 4px 5px 5px;
+        border-radius: 7px;
+        font-size: 18px;
+}
+.fifa-photo a :hover{
+    background-color: #334094;
+    cursor: pointer;
+}
+
+.header-content .fa-angle-right{
+    margin-right: 5px;
+}
+.header-content img{
+    width: 78%;
+}
+.fifa-photo{
+    display: flex;
+    margin-top: 100px;
+
+}
+#froms{
+    width: 15%;
+    height: 320;
+    background-color: #fff;
+    margin-left: 45px;
+    margin-right: 20px;;
+}
+ input{
+         width: 147px;
+        text-align: center;
+        height: 44px;
+        margin-bottom: 8px;
+        border-radius: 7px;
+}
+#from-st{
+    padding: 32px;
+    background-color: #161616;
+}
+.button-watchs{
+       background-color: #334094;
+        border-radius: 7px;
+}
+.match{
+    margin: 5px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background-color: #dcdcdc26;
+}
+.match button{
+        margin: 10px 10px;
+        height: 24px;
+        width: 75px;
+}
+.match img{
+    width: 100%;
+}
+
+.fifa-photos{
+        display: flex;
+        margin-top: 20px;
+}
+#margin-side .match{
+    margin-left: 20px;
+}
+.form-sectipnss{
+    padding: 16px;
+}
+/*               footer SectionS */
+
+.Fotter-section{
+    margin-top: 50px;
+    background-color: #161616;
+    height: 400px;
+    display: block;
+}
+.foter-font h1{
+     color:floralwhite;
+     text-align: center;
+     margin-top: 50px;
+     padding-top: 40px;
+
+}
+
+.foter-font hr{
+    width: 73%;
+    margin-bottom: 100px;
+}   
+
+nav{
+    text-align: center;
+}
+nav.manue a{
+    text-align: center;
+ text-decoration: none;
+ color: #fff;
+ margin-left: 20px;
+}
+
+
+.right-side {
+    width: 25;
+}
+/* font-awesome */
+
+.icons{
+    margin: 10px;
+    color: #000000b5;
+}
+.fa-solid{
+     font-weight: 500;
+     margin-right: 50px;
+
+}
+.right-side .fa-solid {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 500;
+}
+
+
+
+
+
+/* new-match css cadding sheet */
+
+.new-match-days img{
+    width: 100%;
+}
+.new-match-days h3 {
+    text-align: center;
+}
+.new-match-days{
+    width: 500px;
+}
+
+
+
+.tablet-button{
+
+    padding: 20px;
+    text-align: center;
+}
+.tablet-button button{
+    background-color: #334094;
+    padding: 10px 20px;
+    border-radius: 11px;
+}
+
+
+
+
+
+
+/*          Meadia Quree Cascading style    */
+@media only screen and (min-width: 1025px) {
+    .tablet-button{
+        display: none;
+    }
+
+
+}
+@media only screen and (max-width: 1024px) {
+    .header-content img {
+        width: 100%;
+        margin-right: 27px;
+    }
+    .font-header h1 {
+        font-size: 41px;
+    }
+    .font-header {
+        margin-top: 30px;
+    }
+    .header-section {
+        height: 467px;
+    }
+    .tablet{
+        display: inline-block;
+    }
+    #from-st {
+        padding: 32px;
+    }
+    .fifa-photo {
+
+        margin-top: 50px;
+        
+    }
+    #from-st {
+        background: none;
+        padding: 32px;
+        display: flex;
+        margin-bottom: 200px;
+    }
+    .right-side{
+        margin-top: 100px;
+    }
+    input {
+        margin-inline: 21px
+  }
+  #froms {
+    width: 0%;
+}
+#hide-tablet{
+    display: none;
+}
+}
+/* new-match tab or site */
+.new-page-seactiob {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        height: 400px;
+        display: flex;
+       justify-content:center;
+}
+#st {
+    width: 247px;
+    float: left;
+    margin-bottom: 80px;
+    margin-top: 38px;
+    background-color: #161616;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    padding-top: 50px;
+    height: 194px;
+    float: left;
+        
+    }
+    .match-new-section{
+        float: left;
+        width: 300px;
+    }
+
+.match-new-section{
+    width: 27%;
+    margin-left: 20px;
+}
+..match-new-section h4{
+    font-size: 18px;
+}
+@media only screen and (max-width: 768px) {
+    
+    .font-header h1 {
+        font-size: 29px;
+    }
+    .header-content img {
+        margin-top: 20px;
+    }
+    .header-section {
+        height: 353px;
+    }
+    .font-header {
+        margin-top: 0px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 425px) {
+    .font-header h1 {
+        font-size: 17px;
+    }
+    .font-header {
+        padding: 6px;
+        margin-top: 20px;
+    }
+    .font-header p{
+        font-size: 10px;
+    }
+
+    .header-content img {
+        margin-top: 56px;
+    }
+    .header-section {
+        height: 254px;
+    }
+#mobile{
+    display: none;
+}
+#hide-tablet{
+    display: none;
+}
+nav {
+
+    margin: 120px;
+}
+
+.foter-font hr {
+    width: 45%;
+    margin-bottom: -83px;
+}
+#froms {
+    width: 15%;
+    height: 320;
+    background-color: #fff; 
+    margin-left: 45px;
+    margin-right: 20px; 
+}
+input {
+    width: 65px;
+
+}
+#from-st {
+    display: flex;
+}
+}
